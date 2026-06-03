@@ -149,8 +149,34 @@
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1022506833533457');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+  <style>
+    .gnerai-strip {
+      width: 100%;
+      order: 99;
+      flex-basis: 100%;
+      margin-top: 18px;
+      padding: 12px 18px;
+      background: #1f1c18;
+      color: #f6efe4;
+      text-align: center;
+      font-size: 11px;
+      line-height: 1.4;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .gnerai-strip strong { font-weight: 600; }
+  </style>
 </head>
 <body>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1022506833533457&ev=PageView&noscript=1" alt="" /></noscript>
+
   <nav id="nav">
     <a href="/" class="logo" target="_top"><img src="/assets/logorazol.svg" alt="Razol Parquet" height="52" style="display:block;"></a>
     <div class="nav-right">
@@ -333,7 +359,7 @@
   <a href="/blog" class="back-link" data-i18n="blogpost.back">← Volver al blog</a>
 
   <footer>
-    <span>© 2026 GNERAI · Instalación de parquet en Barcelona</span>
+    <div class="gnerai-strip">Powered by <strong>GNERAI</strong></div>
     <span>Razolparquet</span>
   </footer>
 
